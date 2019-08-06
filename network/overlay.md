@@ -157,7 +157,7 @@ services which publish ports, such as a WordPress service which publishes port
       my-ingress
     ```
 
-    > **Note**: You can name your `ingress` network something other than
+    > **Note**: You can rename your `ingress` network something other than
     > `ingress`, but you can only have one. An attempt to create a second one
     > fails.
 
