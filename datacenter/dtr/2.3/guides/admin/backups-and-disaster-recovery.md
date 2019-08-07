@@ -166,7 +166,7 @@ owned by users that don't exist, so you can't manage the resources,
 even though they're stored in the DTR data store.
 
 When restoring, you need to use the same version of the `docker/dtr` image
-that you've used when creating the update. Other versions are not guaranteed
+that you've used when creating the backup. Other versions are not guaranteed
 to work.
 
 ### Stop DTR containers
