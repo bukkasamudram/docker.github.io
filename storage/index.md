@@ -79,9 +79,7 @@ mounts is to think about where the data lives on the Docker host.
   Bind mounts have limited functionality compared to volumes. When you use a
   bind mount, a file or directory on the _host machine_ is mounted into a
   container. The file or directory is referenced by its full path on the host
-  machine. The file or directory does not need to exist on the Docker host
-  already. It is created on demand if it does not yet exist. Bind mounts are
-  very performant, but they rely on the host machine's filesystem having a
+  machine. Bind mounts are very performant, but they rely on the host machine's filesystem having a
   specific directory structure available. If you are developing new Docker
   applications, consider using named volumes instead. You can't use
   Docker CLI commands to directly manage bind mounts.
