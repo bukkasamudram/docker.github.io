@@ -59,7 +59,7 @@ If you need to specify volume driver options, you must use `--mount`.
   - The second field is the path where the file or directory are mounted in
     the container.
   - The third field is optional, and is a comma-separated list of options, such
-    as `ro`. These options are discussed below.
+    as `ro` `consistent`, `delegated`, `cached`, `z`, and `Z`. These options are discussed below.
 
 - **`--mount`**: Consists of multiple key-value pairs, separated by commas and each
   consisting of a `<key>=<value>` tuple. The `--mount` syntax is more verbose
